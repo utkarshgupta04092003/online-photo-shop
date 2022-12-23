@@ -4,9 +4,9 @@ This is a online photo shop project made with the help of picsum.photo database.
 
 
 ## Table of Contents
- * [Overview](https://github.com/utkarshgupta04092003/Cook-Star-themealdb/blob/main/README.md#overview)
- * [API Link](https://github.com/utkarshgupta04092003/Cook-Star-themealdb/blob/main/README.md#api-link)
- * [Screenshots](https://github.com/utkarshgupta04092003/Cook-Star-themealdb/blob/main/README.md#screenshots)
+ * [Overview](https://github.com/utkarshgupta04092003/online-photo-shop/blob/main/README.md#overview)
+ * [API Link](https://github.com/utkarshgupta04092003/online-photo-shop/blob/main/README.md#api-link)
+ * [Screenshots](https://github.com/utkarshgupta04092003/online-photo-shop/blob/main/README.md#screenshots)
    - [Home Page](https://github.com/utkarshgupta04092003/Cook-Star-themealdb/blob/main/README.md#home-page)
    - [Search Meal By Name](https://github.com/utkarshgupta04092003/Cook-Star-themealdb/blob/main/README.md#search-meal-by-name) 
    - [Meal Details Page](https://github.com/utkarshgupta04092003/Cook-Star-themealdb/blob/main/README.md#meal-details-page)
