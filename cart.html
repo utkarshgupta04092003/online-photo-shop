@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+        integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+</head>
+
+<body class="bg-gray-200">
+
+
+    <section class="flex text-gray-600 body-font ">
+        <div class="container px-5 py-24 mx-auto w-3/4">
+
+
+            <div id="cart-items">
+
+
+
+                <!-- <div class="flex items-center lg:w-3/5 mx-auto border-b pb-0 mb-10 border-gray-200 sm:flex-row flex-col bg-white border-4 relative">
+                    <div
+                        class="sm:w-32 sm:h-32 h-1/2 w-1/2 sm:mr-10 inline-flex items-center justify-center bg-indigo-100 text-indigo-500 ">
+
+                        <img id="image" class="object-cover object-center h-full w-full" alt="loading..."
+                            src="${item.imageUrl}">
+
+                    </div>
+                    <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Image - 102</h2>
+                        <p class="leading-relaxed text-base">Price: <span>${item.totalPrice}</span> INR</p>
+                        <P class="leading-relaxed text-base">Size: <span>${item.size}</span> </P>
+                        <P class="leading-relaxed text-base">Quantity: <span>1</span> </P>
+
+                    </div>
+                    <div class="absolute top-3 right-3" id="${item.id}" onclick="removeItem(this);">
+                        <i class="fas fa-minus-circle"></i>
+                    </div>
+                    
+                </div> -->
+
+
+            </div>
+
+            <!-- <button
+                class="flex mx-auto mt-20 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Place
+                Order</button> -->
+
+
+
+        </div>
+
+
+        <div class="flex-col px-5 py-24 mx-auto w-2/4 border-gray-900">
+
+            <h3 class="text-3xl font-bold">Product Details</h3>
+            <div class="product-details bg-white w-3/4 px-6 mt-12 py-6">
+
+                <div class="flex justify-between">
+
+                    <p class="text-xl pb-2 ">Price </p>
+                    <p class="text-xl pb-2" id="cart-price">₹1200.00</p>
+
+                </div>
+                <hr>
+                <div class="flex justify-between">
+
+                    <p class="text-xl py-2 ">Quantity </p>
+                    <p class="text-xl py-2" id="cart-quantity">1</p>
+
+                </div>
+                <hr>
+                <div class="flex justify-between">
+
+                    <p class="text-xl py-2 ">Discount </p>
+                    <p class="text-xl py-2">- ₹00.00</p>
+
+                </div>
+                <hr>
+                <div class="flex justify-between">
+
+                    <p class="text-xl py-2 ">Delivery Charges </p>
+                    <p class="text-xl py-2" style="color: #388E3C;" id="cart-price">Free</p>
+
+                </div>
+                <hr>
+                <div class="flex justify-between ">
+
+                    <p class="text-xl py-2 ">Total Amount </p>
+                    <p class="text-xl py-2" id="total-cart-price">₹1200.00</p>
+
+                </div>
+
+                <hr>
+                <div class="flex justify-between text-xl font-bold py-2" style="color: #388E3C;">
+                    Your total amount is : <span id="total-cart-amount"> ₹1200.00</span>
+                </div>
+
+
+
+            </div>
+            <button
+                class="flex justify-center w-3/4 mt-2 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Place
+                Order</button>
+
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script>viewCart();</script>
+</body>
+
+</html>

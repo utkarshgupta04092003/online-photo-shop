@@ -1,0 +1,19 @@
+.border{
+    border: 2px solid red;
+}
+img{
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.link{
+    cursor: pointer;
+}
+img{
+    transition: all 0.2s ease-in-out;
+}
+img:hover{
+
+    transform: scale(0.9);
+    
+}
